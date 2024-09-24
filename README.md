@@ -4,8 +4,6 @@ Este projeto é uma API para gerenciamento de livros, construída com **Spring B
 
 ## Estrutura do Projeto
 
-Abaixo está a estrutura básica do projeto, separada por pacotes:
-├── src │ ├── main │ │ ├── java/com/livros/biblioteca │ │ │ ├── controllers │ │ │ │ ├── HelloWorld.java # Exemplo de um controlador inicial │ │ │ │ ├── LivroController.java # Controlador responsável pelas operações CRUD de livros │ │ │ ├── livro │ │ │ │ ├── Categoria.java # Modelo para a categoria dos livros │ │ │ │ ├── DadosCadastroLivros.java # DTO para cadastro de livros │ │ │ │ ├── Idioma.java # Modelo para o idioma dos livros │ │ │ │ ├── Livro.java # Entidade Livro │ │ │ │ ├── LivroRepository.java # Interface de repositório para persistência de dados dos livros │ │ │ ├── BibliotecaApplication.java # Classe principal que inicializa a aplicação ├── resources # Arquivos de configuração e templates ├── test/java/com/livros/biblioteca # Testes unitários e de integração
 
 ## Tecnologias Utilizadas
 
